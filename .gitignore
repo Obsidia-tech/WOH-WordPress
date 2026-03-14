@@ -1,0 +1,36 @@
+# WordPress core — track the theme/plugins you own, not core itself
+wp-admin/
+wp-includes/
+
+# Uploads — never commit media
+wp-content/uploads/
+
+# Caches and generated files
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Sensitive config — NEVER commit
+wp-config.php
+wp-salt.php
+.env
+
+# DB export — one-time pull artifact, not tracked
+*.sql
+
+# Cloudways connector file
+bv_connector_*.php
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
+
+# Node / build artifacts
+node_modules/
+vendor/
