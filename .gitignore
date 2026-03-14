@@ -5,6 +5,10 @@ wp-includes/
 # Uploads — never commit media
 wp-content/uploads/
 
+# Plugins — reinstallable, commercial licenses, too large for git
+# Track only custom plugins you wrote from scratch (add exceptions below)
+wp-content/plugins/
+
 # Caches and generated files
 wp-content/cache/
 wp-content/upgrade/
