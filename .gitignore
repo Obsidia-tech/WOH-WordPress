@@ -11,7 +11,9 @@ wp-content/plugins/
 
 # Caches and generated files
 wp-content/cache/
+wp-content/cache-old/
 wp-content/upgrade/
+wp-content/upgrade-temp-backup/
 wp-content/backup-db/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
@@ -23,6 +25,11 @@ wp-salt.php
 
 # DB export — one-time pull artifact, not tracked
 *.sql
+
+# Manuals — PDFs served via external CDN, URLs must never change
+# Files live locally at ~/Sites/woh-wordpress/manuals/ for reference
+# Future use: scan for maintenance actions to populate Task Templates
+manuals/
 
 # Cloudways connector file
 bv_connector_*.php
